@@ -56,6 +56,12 @@
   }
 }
 
+.flower-title {
+  font-size: 20px;   /* lebih kecil */
+  letter-spacing: 2px; /* rapat */
+}
+
+
 /* Terapkan animasi dengan delay */
 .title span {
   opacity: 0;
