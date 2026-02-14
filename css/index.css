@@ -38,6 +38,9 @@
   height: 100vh;
   text-shadow: 0 0 20px white;
   letter-spacing: 0px;
+
+  font-size: 20px;
+
 }
 
 @media (min-width: 500px) {
