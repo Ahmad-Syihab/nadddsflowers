@@ -39,10 +39,6 @@
   text-shadow: 0 0 20px white;
   letter-spacing: 0px;
 }
-.title.flower-title {
-  font-size: 20px;   /* kecil */
-  letter-spacing: 2px; /* rapat */
-}
 
 @media (min-width: 500px) {
   .title {
@@ -60,11 +56,10 @@
   }
 }
 
-
 /* Terapkan animasi dengan delay */
 .title span {
   opacity: 0;
-  animation: typing 0,3s ease forwards;
+  animation: typing 1s ease forwards;
   animation-delay: var(--delay);
 }
 
