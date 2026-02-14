@@ -58,7 +58,6 @@
 
 /* Terapkan animasi dengan delay */
 .title span {
-  font-size: 20px;
   opacity: 0;
   animation: typing 1s ease forwards;
   animation-delay: var(--delay);
