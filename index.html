@@ -30,12 +30,19 @@
     </a>
   </div>
 <!-- Musik latar -->
-  <audio autoplay loop>
-    <source src="lagunya.mp3" type="audio/mpeg">
-    Browser kamu tidak mendukung audio.
-  </audio>
+<audio id="bg-music" loop>
+  <source src="lagunya.mp3" type="audio/mpeg">
+</audio>
 
-
+<script>
+  // Musik akan mulai saat user klik tombol atau area halaman
+  document.addEventListener("click", function() {
+    const music = document.getElementById("bg-music");
+    if (music.paused) {
+      music.play();
+    }
+  });
+</script>
   <script src="js/index.js"></script>
 </body>
 
