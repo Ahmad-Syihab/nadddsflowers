@@ -316,6 +316,21 @@
 
   <!-- Title -->
   <h1 class="title"><span id="title"></span></h1>
+
+  <!-- Musik latar -->
+<audio id="bg-music" loop>
+  <source src="lagunya.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  // Musik akan mulai saat user klik tombol atau area halaman
+  document.addEventListener("click", function() {
+    const music = document.getElementById("bg-music");
+    if (music.paused) {
+      music.play();
+    }
+  });
+</script>
 </body>
 
 </html>
